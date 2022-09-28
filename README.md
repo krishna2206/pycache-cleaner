@@ -44,12 +44,10 @@ This is a simple script to clean the pycache folders from the current directory 
 
 ## Options
 
-```bash
-    safe, --safe
-        Move the pycache folders to the trash instead of deleting them.
-    simulation, --simulation
-        Do not delete or move the pycache folders, just print the paths.
-```
+- `--safe` : Move the pycache folders to the trash instead of deleting them.
+- `--simulation` : Do not delete or move the pycache folders, just print the paths.
+
+**Note:** The `--safe` and `--simulation` options can't be used together. The first option will be used if both are provided.
 
 ### Warning
 
