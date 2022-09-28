@@ -49,7 +49,7 @@ This is a simple script to clean the pycache folders from the current directory 
 
 **Note:** The `--safe` and `--simulation` options can't be used together. The first option will be used if both are provided.
 
-### Warning
+## Warning
 
 This script will delete all folders with the name `__pycache__` in the current directory and all subdirectories. If you have any folders with this name that you do not want to delete, you should move them before running the script.
 
