@@ -12,10 +12,10 @@ This is a simple script to clean the pycache folders from the current directory 
     git clone https://github.com/krishna2206/pycache-cleaner.git
 ```
 
-- Install the requirements
+- Go to the cloned repository and install the requirements
 
 ```bash
-    pip install -r requirements.txt
+    cd pycache-cleaner && pip install -r requirements.txt
 ```
 
 ### From releases
